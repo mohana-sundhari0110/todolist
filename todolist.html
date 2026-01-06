@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="todol.js"></script>
+</head>
+<body>
+    <div id="top"></div>
+    <div>
+        <h1 id="head">To-Do List App</h1>
+        <p style="position: fixed;top:160px;left:40%; font-size: x-large;">Add a new task</p>
+        <input type="text" placeholder="Add a new task..." id="task">
+        <button id="add" onclick="addTask()">Add Task</button>
+        <div>
+             <ul id="tasklist">
+
+             </ul>
+        </div>
+        <button id="clearcompleted" onclick="clearcompleted()">Clear Completed</button>
+    </div>
+</body>
+</html>

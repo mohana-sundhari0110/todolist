@@ -1,0 +1,72 @@
+*{
+    background-color: rgb(173, 184, 205);
+}
+#top{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height:3%;
+    width:100%;
+    border: 16px solid rgb(36, 36, 80);
+    background-color:rgb(36, 36, 80) ;
+}
+#head{
+    position: fixed;
+     top:80px;
+     width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    font-size:3em;
+}
+#task{
+     position: fixed;
+     top:235px;
+     left:40%;
+     height:40px;
+     width:280px;
+     border-radius:10px;
+     background-color: white;
+     border-color: rgb(39, 39, 229);
+}
+#add{
+    position: fixed;
+    top:238px;
+    left:61%;
+    width:80px;
+    height:40px;
+    border-radius: 5px;
+    background-color:rgba(6, 17, 241, 0.878) ;
+    color: white;
+    border-color:rgba(6, 17, 241, 0.878) ;
+}
+ul{
+    list-style:none;
+    position: fixed;
+    top:300px;
+    left:35%;
+    font-size:30px;
+
+}
+ul li{
+margin-bottom:35px;
+}
+#tasklist input[type="checkbox"]{
+    width:50px;
+    height:20px;
+}
+#clearcompleted{
+    display:none;
+    position:fixed;
+    top:240px;
+    left:68%;
+ padding: 10px 15px;
+   background-color:  rgb(39, 39, 229);
+    color: rgb(217, 217, 223);
+    border-color: rgb(44, 44, 213);
+    border-radius: 5px;
+    
+
+}
